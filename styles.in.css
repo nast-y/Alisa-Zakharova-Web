@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;0,700;1,700;1,900&display=swap');
+
+.avatar {
+    width: 200px;
+    border-radius: 70%;
+    margin: 10px;
+    
+}
+
+.name {
+    margin:1%;
+    font-size: 75px;
+}
+
+
+a {color:beige;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+
+}
+
+a:hover {
+    color: blueviolet;
+}
+
+
+.likes {
+    text-transform: uppercase;
+    background: linear-gradient(to right, rgb(216, 112, 129) 40%, rgb(173, 101, 173) 60%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 80px;
+}
+
+.likings {
+    background: linear-gradient(to left, rgb(216, 112, 129) 0%, rgb(173, 101, 173) 100%);
+    padding: 20px;
+
+}
+
+.dislikes {
+    text-transform: uppercase;
+    background: linear-gradient(to right, green 40%, black 60%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 80px;
+}
+
+.dislikings {
+    background: linear-gradient(to left, green 0%, black 100%);
+    padding: 20px;
+}
+

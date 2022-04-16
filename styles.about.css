@@ -1,0 +1,18 @@
+a {color:beige;
+    text-decoration: none;
+    font-size: 18px;
+
+}
+
+a:hover {
+    color: blueviolet;
+}
+
+.about {
+    font-size: 100px;
+    background: linear-gradient(to right, rgb(216, 112, 129) 55%, rgb(165, 92, 165) 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    
+}
